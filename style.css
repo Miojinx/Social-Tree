@@ -5,13 +5,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* Chrome 10+, Saf5.1+ */ background: -moz-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* FF3.6+ */ background: linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* W3C */
+}
+
 main{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    height: 100vh;
-    background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* Chrome 10+, Saf5.1+ */ background: -moz-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* FF3.6+ */ background: linear-gradient(360deg, #FD6F46 10%, #FB9832 360%); /* W3C */
+    height: 96vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
 }
 
 #content-main{
